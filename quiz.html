@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Are You Worthy for The Moose Quiz</title>
+    <link rel="stylesheet" href="quiz-style.css">
+</head>
+<body>
+    <header>
+        <h1>Are You Worthy for The Moose Quiz</h1>
+    </header>
+
+    <main class="container">
+        <p>Answer the following questions to determine if you are worthy for The Talking Moose:</p>
+        <form id="quizForm">
+            <ol>
+                <li>
+                    <label for="question1">Are you a woman?</label><br>
+                    <input type="radio" id="yes1" name="question1" value="yes">
+                    <label for="yes1">Yes</label>
+                    <input type="radio" id="no1" name="question1" value="no">
+                    <label for="no1">No</label>
+					<input type="radio" id="genderconstruct" name="question1" value="genderisaconstruct">
+                    <label for="genderconstruct">Gender is a construct</label>
+                </li>
+                <li>
+                    <label for="question2">What Football team do you support?</label><br>
+                    <input type="radio" id="birmingham" name="question2" value="yes">
+                    <label for="birmingham">Birmingham</label>
+                    <input type="radio" id="no2" name="question2" value="no">
+                    <label for="no2">Liverpool</label>
+                </li>
+                <li>
+                    <label for="question3">Do you drink over 50 pints a day?</label><br>
+                    <input type="radio" id="yes3" name="question3" value="yes">
+                    <label for="yes3">Yes</label>
+                    <input type="radio" id="no3" name="question3" value="no">
+                    <label for="no3">No</label>
+                </li>
+				<li>
+					<label for="question4">Did you vote for Brexit?</label><br>
+					<input type="radio" id="yes4" name="question4" value="yes">
+                    <label for="yes4">Yes</label>
+                    <input type="radio" id="no4" name="question4" value="no">
+                    <label for="no4">No</label>
+            </ol>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="result"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 johnmccarfen@gmail.com</p>
+    </footer>
+
+    <script src="quiz-script.js"></script>
+</body>
+</html>
